@@ -90,8 +90,8 @@ app.post("/api/forgot-password/user", passwordResetLimiter, async (req, res) => 
         const transporter = nodemailer.createTransport({
           service: 'Gmail',
           auth: {
-            user: 'akash.pise@nymbleup.com',
-            pass: 'Nymbleup@123'
+            user: 'dwefwefwef',
+            pass: 'wedwedwed'
           }
         });
     
